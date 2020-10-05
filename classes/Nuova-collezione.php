@@ -6,6 +6,6 @@ class NewCollection extends HandBags {
 
   public function __construct($_codiceArticolo, $_marca, $_modello, $_collezione = 'nuova collezione') {
     parent::__construct($_codiceArticolo, $_marca, $_modello);
-    $this->genere = $_genere;
+    $this->collezione = $_collezione;
   }
 }
